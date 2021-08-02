@@ -5,12 +5,13 @@ import Dashboard from './components/Dashboard/Dashboard'
 import Preferences from './components/Preferences/Preferences';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Login from './components/Login/Login'
+import LoginForm from './components/Login/Login';
 
 function App() {
   const [token, setToken] = useState()
 
   if(!token) {
-    return <Login setToken={setToken} />
+    return <LoginForm setToken={setToken} />
   }
   
   return (
