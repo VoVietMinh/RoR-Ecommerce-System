@@ -5,7 +5,7 @@ const LoginForm = () => (
     <Grid textAlign='center' style={{ height: '100vh' }} verticalAlign='middle'>
         <Grid.Column style={{ maxWidth: 450 }}>
             <Header as='h2' color='teal' textAlign='center'>
-                <Image src='/logo.png' /> Log-in to your account
+               Log-in to your account
             </Header>
             <Form size='large'>
                 <Segment stacked>
@@ -23,6 +23,12 @@ const LoginForm = () => (
                     </Button>
                 </Segment>
             </Form>
+            <Message>
+                Admin account: admin@demo/b
+            </Message>
+            <Message>
+                Agent account: agent@demo/b
+            </Message>
             <Message>
                 New to us? <a href='#'>Sign Up</a>
             </Message>

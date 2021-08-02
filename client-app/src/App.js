@@ -4,8 +4,7 @@ import './App.css';
 import Dashboard from './components/Dashboard/Dashboard'
 import Preferences from './components/Preferences/Preferences';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Login from './components/Login/Login'
-import LoginForm from './components/Login/Login';
+import LoginForm from './components/LoginForm/LoginForm';
 
 function App() {
   const [token, setToken] = useState()
