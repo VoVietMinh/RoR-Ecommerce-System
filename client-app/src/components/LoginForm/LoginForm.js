@@ -8,7 +8,6 @@ const LoginForm = ({ setToken }) => {
     const [password, setPassword] = useState('b')
 
     const handleSubmit = async e => {
-        e.preventDefault();
         const token = await loginUser({
           email: username,
           password
@@ -44,9 +43,6 @@ const LoginForm = ({ setToken }) => {
             </Message>
             <Message>
                 Agent account: agent@demo/b
-            </Message>
-            <Message>
-                New to us? <a href='#'>Sign Up</a>
             </Message>
         </Grid.Column>
     </Grid>
