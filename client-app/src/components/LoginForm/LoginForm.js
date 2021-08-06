@@ -53,7 +53,7 @@ LoginForm.propTypes = {
 }
 
 async function loginUser(credentials) {
-    return fetch('http://localhost:3333/authenticate', {
+    return fetch('http://localhost:3333/api/v1/authenticate', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
