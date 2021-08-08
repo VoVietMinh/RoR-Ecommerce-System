@@ -22,8 +22,16 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
+
 gem 'simple_command'
 gem 'rack-cors'
+# active_model_serializers. binding model 
+gem 'active_model_serializers', '~> 0.10.0'
+# paging gems 
+gem 'will_paginate', '~> 3.1.0' # will_paginate. paging ActiveRecord
+gem 'pagy'
+gem 'pager_api' # pager_api. paging api
+
 
 
 # Use Active Storage variant
